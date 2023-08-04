@@ -1,0 +1,35 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+.main {
+  margin: 0 auto;
+  width: 80%;
+}
+.header,
+.logo_header,
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.menu > div {
+  margin-left: 50px;
+}
+.foto {
+  background-image: url(./img/young-rural-travellers-on-a-picnic.jpg);
+  width: 931px;
+  height: 582px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg{
+    background: rgba(255, 255, 255, 0.36);
+    width: 558px;
+height: 119px;
+flex-shrink: 0;
+}
