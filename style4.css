@@ -11,12 +11,21 @@
   margin: 0 auto;
   width: 80%;
 }
-.header,
+.head,
 .menu {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background: #047E79;
+  background: #047e79;
+  width: 1443px;
+  height: 93px;
+  flex-shrink: 0;
+}
+.head_bg{
+  position: absolute;
+  background: #047e79;
+  width: 1443px;
+  height: 93px;
 }
 .menu > div {
   margin-left: 50px;
