@@ -5,6 +5,14 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
+  font-family: "PT Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
 }
 .main {
   margin: 0 auto;
@@ -15,7 +23,14 @@
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  background: #047E79;
+  background: #047e79;
+  width: 1443px;
+  height: 93px;
+  flex-shrink: 0;
+}
+.header_bg{
+  position: absolute;
+  background: #047e79;
 }
 .menu > div {
   margin-left: 50px;
