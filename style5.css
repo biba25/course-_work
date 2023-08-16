@@ -42,7 +42,7 @@ a {
   height: 273px;
   border-radius: 273px;
   background-color: rgba(238, 122, 8, 0.53);
-
+margin: 0 auto;
 }
 .name {
   color: #000;
