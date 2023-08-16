@@ -11,6 +11,13 @@
   margin: 0 auto;
   width: 80%;
 }
+a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
 .head,
 .menu {
   display: flex;
@@ -19,13 +26,13 @@
   background: #047e79;
   width: 1443px;
   height: 93px;
-  flex-shrink: 0;
 }
-.head_bg{
+.head_bg {
   position: absolute;
   background: #047e79;
-  width: 1443px;
+  width: 100%;
   height: 93px;
+  z-index: -1;
 }
 .menu > div {
   margin-left: 50px;
