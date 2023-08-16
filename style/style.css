@@ -97,7 +97,7 @@ a {
   line-height: normal;
 }
 .picture {
-  background-image: url(./img/young-rural-travellers-on-a-picnic.jpg);
+  background-image: url(../img/young-rural-travellers-on-a-picnic.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -112,7 +112,7 @@ a {
   line-height: normal;
 }
 .block_pic {
-  background-image: url(./img/female-tourists-on-hand-have-a-happy-travel-map.jpg);
+  background-image: url(../img/female-tourists-on-hand-have-a-happy-travel-map.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   width: 362px;

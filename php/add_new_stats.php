@@ -30,7 +30,7 @@ if (!empty($_POST) and !empty($_FILES)) {
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet" />
     <title>Войти</title>
-    <link rel="stylesheet" href="./stylePhP5.css" />
+    <link rel="stylesheet" href="../style/stylePhP5.css" />
 </head>
 
 <body>
