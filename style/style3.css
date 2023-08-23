@@ -48,7 +48,6 @@ a {
 .header_ps {
   color: #a5a5a5;
   text-align: center;
-
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -150,46 +149,46 @@ a {
 .Australia {
   background-image: url(../img/beautiful-shot-of-a-crystal-clear-lake-next-to-a-snowy-mountain-base-during-a-sunny-day.jpg);
 }
-@media (max-width:1024px) {
-  .header{
+@media (max-width: 1024px) {
+  .header {
     font-size: 20px;
   }
-
-.section > div {
-  margin: 20px 0;
+  .section > div {
+    margin: 20px 0;
+  }
+  .picture {
+    height: 400px;
+  }
+  .footer_block {
+    width: 533px;
+    padding: 35px;
+  }
+  .g {
+    height: 226px;
+  }
+  .icon,
+  .icons {
+    padding: 0px 40px;
+  }
 }
-.picture {
-  height: 400px;
+@media (max-width: 656px) {
+  .main {
+    width: 90%;
+  }
+  .icon,
+  .icons {
+    padding: 0px 29px;
+  }
+  .footer_block {
+    width: 464px;
+    padding: 20px;
+  }
+  .header_ps {
+    font-size: 20px;
+  }
+  .section > div {
+    margin: 13px 0;
+  }
 }
-.footer_block {
-  width: 533px;
-  padding: 35px;
-}
-.g{
-  height: 226px;
-}
-.icon, .icons {
-  padding: 0px 40px;
-}
-}
-@media (max-width:656px){
-.main {
-  width: 90%;
-}
-.icon, .icons {
-  padding: 0px 29px;
-}
-.footer_block {
-  width: 464px;
-  padding: 20px;
-}
-.header_ps {
-  font-size: 20px;
-}
-.section > div {
-  margin: 13px 0;
-}
-}
-@media (max-width:523px){
-
+@media (max-width: 523px) {
 }
