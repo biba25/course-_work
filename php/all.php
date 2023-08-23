@@ -13,12 +13,17 @@ mysqli_query($link, "SET NAMES 'utf8'");
 
 $query = "SELECT * FROM stats";
 $result = mysqli_query($link, $query) or die(mysqli_error($link));
-for ($data = []; $row = mysqli_fetch_assoc($result); $data[] = $row);
+for ($data = []; $row = mysqli_fetch_assoc($result); $data[] = $row)
+    ;
 
 foreach ($data as $value) { ?>
     <div class="stat">
-        <h1 class="title"><?= $value['title'] ?></h1>
-        <p class="text"><?= $value['text'] ?></p>
+        <h1 class="title">
+            <?= $value['title'] ?>
+        </h1>
+        <p class="text">
+            <?= $value['text'] ?>
+        </p>
         <img src=" data:image/jpeg;base64,<?= base64_encode($value['image']) ?>" />
     </div>
 <? } ?>
@@ -30,7 +35,7 @@ foreach ($data as $value) { ?>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./stylePhP.css">
+    <link rel="stylesheet" href="../style/stylePhP.css">
     <title>Статья</title>
 </head>
 
@@ -38,6 +43,7 @@ foreach ($data as $value) { ?>
     <div class="wrapper">
         <div class="head_bg"></div>
         <div class="main">
+
             <head>
                 <div class="head">
                     <div class="menu">
