@@ -1,11 +1,11 @@
-let filters = document.querySelectorAll("div[data-filter]");
+let filters = document.querySelectorAll("a[data-filter]");
 
 for (let filter of filters) {
   filter.addEventListener("click", function (e) {
     e.preventDefault();
 
     let catId = filter.getAttribute("data-filter");
-    let workCat = document.querySelectorAll(".block");
+    let workCat = document.querySelectorAll(".portfolio__col");
 
     workCat.forEach(function (c) {
       if (catId === "all") {
