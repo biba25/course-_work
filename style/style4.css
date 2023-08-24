@@ -5,7 +5,7 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
-  font-family: 'PT Sans', sans-serif;
+  font-family: "PT Sans", sans-serif;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
@@ -88,53 +88,68 @@ a {
   align-items: center;
   justify-content: center;
 }
-.section_items{
-  display: flex;
-  justify-content: space-between;
+.header {
+  /* margin-top: 40%; */
+  margin: 20px 0px 371px 0px;
+}
+.picture {
+  background-image: url(../img/Ruth-Orkin.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  z-index: -2;
+  background-position: center;
 }
 
-.container {
-  max-width: 700px;
+.text {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 20px 0px rgb(0, 0, 0);
+  width: 60%;
   margin: 0 auto;
+  letter-spacing: 1px;
+  font-size: 20px;
+  padding: 16px;
 }
-
-.itc-slider__item {
-  flex: 0 0 50%;
-  max-width: 50%;
-  height: 250px;
+.header {
+  color: #ffffff;
+  text-align: center;
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background-color: #0000007c;
+}
+.row {
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  color: rgba(255, 255, 255, 0.8);
-  font-size: 7rem;
+  -ms-flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  flex-direction: column-reverse;
+  flex-wrap: nowrap;
 }
-
-.itc-slider__item:nth-child(1) {
-  background-color: #f44336;
+.col-lg-6 {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 100%;
 }
-
-.itc-slider__item:nth-child(2) {
-  background-color: #9c27b0;
+.container {
+  margin-top: 35px;
 }
-
-.itc-slider__item:nth-child(3) {
-  background-color: #3f51b5;
-}
-
-.itc-slider__item:nth-child(4) {
-  background-color: #03a9f4;
-}
-
-.itc-slider__item:nth-child(5) {
-  background-color: #4caf50;
+.btn-primary {
+  color: #fff;
+  background-color: #117a8b;
+  border-color: #17a2b8;
 }
 /* burger-menu */
 body input + label {
   position: absolute;
-  top: 14px;
-  left: 14px;
-  height: 20px;
-  width: 21px;
+  top: 33px;
+  left: 24px;
+  height: 59px;
+  width: 40px;
   z-index: 5;
 }
 body input + label span {
@@ -148,10 +163,10 @@ body input + label span {
   background: #020304;
   transition: 0.5s;
 }
-.logo, .profile{
+.logo_head {
   z-index: 6;
 }
-.checkbox{
+.checkbox {
   display: none;
 }
 body input + label span:first-child {
@@ -176,7 +191,7 @@ body input:checked + label span:last-child {
   transform: rotate(-405deg);
 }
 body input ~ nav {
-  background: rgb(255, 255, 255);
+  background: #047e79;
   position: absolute;
   top: 0;
   left: 0;
@@ -185,7 +200,7 @@ body input ~ nav {
   z-index: 3;
   transition: 0.5s;
   transition-delay: 0.5s;
-  overflow: hidden; 
+  overflow: hidden;
 }
 body input ~ nav > ul {
   text-align: center;
@@ -232,13 +247,158 @@ body input:checked ~ nav > ul > li {
     display: none;
   }
 }
+@media (max-width: 2560px) and (min-width: 1956px) {
+  .section {
+    margin-top: 25%;
+  }
+}
+@media (max-width: 1440px) {
+  .section {
+    margin-top: 10%;
+  }
+}
+@media (max-width: 1956px) {
+  .section {
+    margin-top: 20%;
+  }
+}
 
-
+@media (max-width: 1440px) {
+  .text_bg {
+    font-size: 30px;
+  }
+}
+@media (max-width: 1356px) {
+  .section_items_row {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1290px) {
+  .section {
+    margin-top: 25%;
+  }
+}
+@media (max-width: 1162px) {
+  .sorting {
+    margin: 60px 0;
+  }
+  .picture_bg {
+    margin-bottom: 42px;
+  }
+  .section {
+    margin-top: 35%;
+  }
+  .text {
+    width: 80%;
+  }
+}
+@media (max-width: 1024px) {
+  .header {
+    font-size: 40px;
+  }
+  .section > .text {
+    margin: 80px 0;
+  }
+  .picture {
+    height: 400px;
+  }
+  .section {
+    margin-top: 15%;
+  }
+  .footer_block {
+    width: 533px;
+    padding: 35px;
+  }
+  .g {
+    height: 226px;
+  }
+  .icon,
+  .icons {
+    padding: 0px 40px;
+  }
+  .block_pic {
+    height: 200px;
+  }
+  .text {
+    width: 100%;
+    margin-top: 90px;
+  }
+  .header {
+    /* margin-top: 40%; */
+    margin: 20px 0px 182px 0px;
+  }
+}
+@media (max-width: 904px) {
+  .text_bg {
+    width: 100%;
+    font-size: 25px;
+  }
+}
+@media (max-width: 656px) {
+  .main {
+    width: 90%;
+  }
+  .icon,
+  .icons {
+    padding: 0px 29px;
+  }
+  .footer_block {
+    width: 464px;
+    padding: 20px;
+  }
+  .header_ps {
+    font-size: 20px;
+  }
+  .section > div {
+    margin: 13px 0;
+  }
+}
+@media (max-width: 618px) {
+  .text_bg {
+    display: none;
+  }
+  .section {
+    margin-top: 45%;
+  }
+}
 @media (max-width: 532px) {
   .footer {
     display: none;
   }
   .menu {
     display: none;
+  }
+  .section {
+    margin-top: 60%;
+  }
+  .sorting > a {
+    padding: 10px;
+  }
+  .works__nav-link {
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+@media (max-width: 425px) {
+  .section {
+    margin-top: 40%;
+  }
+  .sorting > a {
+    padding: 2px;
+  }
+  .works__nav-link {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  .header {
+    font-size: 30px;
+  }
+}
+@media (max-width: 361px) {
+  .main {
+    width: 100%;
+  }
+  .sorting {
+    margin: 0 0 15px 0;
   }
 }
