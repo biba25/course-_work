@@ -454,11 +454,11 @@ body input:checked ~ nav > ul > li {
     font-weight: 400;
   }
 }
-@media (max-width: 361px){
+@media (max-width: 361px) {
   .main {
     width: 100%;
-}
-.sorting {
-  margin: 0 0 15px 0;
-}
+  }
+  .sorting {
+    margin: 0 0 15px 0;
+  }
 }

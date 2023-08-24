@@ -152,10 +152,10 @@ a {
 /* burger-menu */
 body input + label {
   position: absolute;
-  top: 14px;
-  left: 14px;
-  height: 20px;
-  width: 21px;
+  top: 33px;
+  left: 24px;
+  height: 59px;
+  width: 40px;
   z-index: 5;
 }
 body input + label span {
@@ -169,10 +169,10 @@ body input + label span {
   background: #020304;
   transition: 0.5s;
 }
-.logo, .profile{
+.logo_head {
   z-index: 6;
 }
-.checkbox{
+.checkbox {
   display: none;
 }
 body input + label span:first-child {
@@ -197,7 +197,7 @@ body input:checked + label span:last-child {
   transform: rotate(-405deg);
 }
 body input ~ nav {
-  background: rgb(255, 255, 255);
+  background: #047e79;
   position: absolute;
   top: 0;
   left: 0;
@@ -206,7 +206,7 @@ body input ~ nav {
   z-index: 3;
   transition: 0.5s;
   transition-delay: 0.5s;
-  overflow: hidden; 
+  overflow: hidden;
 }
 body input ~ nav > ul {
   text-align: center;
@@ -239,7 +239,21 @@ body input:checked ~ nav > ul > li {
 }
 
 /* adaptability */
-
+@media screen and (max-width: 2560px) and (min-width: 881px) {
+  .btn_hiden {
+    display: none;
+  }
+}
+@media screen and (max-width: 2560px) and (min-width: 648px) {
+  .breadcrumps_hiden {
+    display: none;
+  }
+}
+@media screen and (max-width: 2560px) and (min-width: 533px) {
+  .burger-menu_hiden {
+    display: none;
+  }
+}
 @media (max-width: 1024px) {
   .header {
     font-size: 20px;
@@ -282,4 +296,13 @@ body input:checked ~ nav > ul > li {
   }
 }
 @media (max-width: 523px) {
+}
+
+@media (max-width: 532px) {
+  .footer {
+    display: none;
+  }
+  .menu {
+    display: none;
+  }
 }
