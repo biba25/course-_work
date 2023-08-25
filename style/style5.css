@@ -55,14 +55,15 @@ a {
 .name_user {
   color: #7a7a7a;
   text-align: center;
-  font-size: 32px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin: 20px;
 }
 .info_user {
-  width: 882px;
-  height: 467px;
+  width: 757px;
+  height: fit-content;
   flex-shrink: 0;
   background: #d9d9d9;
   color: #000;
@@ -71,14 +72,18 @@ a {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  
 }
 .line {
   width: 100%;
   height: 1px;
   border-bottom: #000 1px solid;
+  margin: 20px;
 }
-
-.section > div {
+.section{
+  margin-top: 5%;
+}
+.section > .info_user {
   margin: 0 auto;
 }
 /* burger-menu */

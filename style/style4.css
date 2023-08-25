@@ -9,6 +9,12 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+img{
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 .main {
   margin: 0 auto;
   width: 80%;
@@ -145,7 +151,7 @@ a {
   flex: 0 0 50%;
   max-width: 100%;
 }
-.container {
+.containerComment {
   margin-top: 35px;
 }
 .btn-primary {

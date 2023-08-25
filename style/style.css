@@ -150,8 +150,8 @@ a {
   background-image: url(../img/side-view-woman-holding-smartphone.jpg);
 }
 .block_name {
-  width: 166px;
-  height: 47px;
+  width: 337px;
+  height: 33px;
   flex-shrink: 0;
 }
 .block_text {
@@ -212,17 +212,18 @@ a {
   align-items: center;
   justify-content: center;
 }
-/* .works__nav> a{
-  color: #000;
+.works__nav > a {
+  color: rgb(0, 0, 0);
 }
 .portfolio__col {
-  display: inline-block;
+  display: flex;
   margin: 10px;
   width: 100%;
+  justify-content: center;
 }
 .hide {
   display: none;
-} */
+}
 /* burger-menu */
 body input + label {
   position: absolute;
@@ -311,6 +312,7 @@ body input:checked ~ nav > ul > li {
   opacity: 1;
   transition-delay: 0.5s;
 }
+
 /* adaptability */
 @media screen and (max-width: 2560px) and (min-width: 881px) {
   .btn_hiden {
@@ -340,6 +342,9 @@ body input:checked ~ nav > ul > li {
 @media (max-width: 1440px) {
   .text_bg {
     font-size: 30px;
+  }
+  .works__nav > a {
+    color: rgb(255, 255, 255);
   }
 }
 @media (max-width: 1356px) {
